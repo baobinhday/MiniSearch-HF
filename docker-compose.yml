@@ -1,0 +1,5 @@
+services:
+  minisearch:
+    image: ghcr.io/felladrin/minisearch:main
+    ports:
+      - "7860:7860"
